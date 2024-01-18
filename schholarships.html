@@ -7,6 +7,60 @@
     <!-- Include the main styles from the previous example or link to an external stylesheet -->
     <link rel="stylesheet" href="./assets/css/styles.css">
 
+    <style>
+        header,
+        main,
+        footer {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            color: #fff;
+            text-align: center;
+        }
+
+        h1,
+        h2 {
+            color: #020910;
+        }
+
+        main {
+            margin-top: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        ul,
+        ol {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 20px;
+            background-color: #005cbf;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        a {
+            color: #005cbf;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
@@ -24,7 +78,6 @@
                 <li><a href="index.html#achievements">Achievements</a></li>
                 <li><a href="./schholarships.html">Scholarships</a></li>
                 <li><a href="./bolg.html">Blog</a></li>
-                <li><a href="./events.html">Events</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
             </ul>
 
@@ -34,14 +87,67 @@
 
 
     <div class="content">
-        <h2>Scholarships</h2>
-        <!-- Add content specific to the Scholarships subpage -->
-        <!-- ... -->
-    </div>
+        <header>
+            <h1>Scholarship Program</h1>
+        </header>
+        <main>
+            <section id="introduction">
+                <h2>Welcome to YODT Scholarship program</h2>
+                <p>
+                    YODT Scholarship program is dedicated to supporting and empowering
+                    students who demonstrate academic excellence, leadership skills, and a
+                    commitment to community service. Our goal is to provide financial assistance
+                    to deserving individuals pursuing higher education.
+                </p>
+            </section>
 
-    <footer>
-        <!-- Include your footer content -->
-    </footer>
+            <section id="eligibility">
+                <h2>Eligibility Criteria</h2>
+                <ul>
+                    <li>Applicant must be a high school senior or currently enrolled in an accredited college or
+                        university.</li>
+                    <li>Minimum GPA of 2.5.</li>
+                    <li>Demonstrated leadership skills through extracurricular activities or community involvement.</li>
+                    <li>Submission of a complete scholarship application.</li>
+                </ul>
+            </section>
+
+            <section id="application-process">
+                <h2>Application Process</h2>
+                <ol>
+                    <li>Complete the online application form on our website.</li>
+                    <li>Submit a current transcript and proof of enrollment.</li>
+                    <li>Write a personal statement outlining your academic achievements, career goals, and community
+                        involvement.</li>
+                    <li>Submit two letters of recommendation.</li>
+                </ol>
+            </section>
+
+            <section id="deadline">
+                <h2>Application Deadline</h2>
+                <p>
+                    The deadline for scholarship applications is 2024/2/2. Late submissions will not be
+                    considered.
+                </p>
+            </section>
+
+            <section id="selection">
+                <h2>Selection Process</h2>
+                <p>
+                    Applications will be reviewed by our scholarship committee.
+                    Successful candidates will be selected based on academic achievements,
+                    leadership qualities, and the strength of their application materials.
+                </p>
+            </section>
+
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p>
+                    If you have any questions or need further assistance, please contact us at
+                    yodt@gmail.com.
+                </p>
+            </section>
+    </div>
 </body>
 
 </html>
