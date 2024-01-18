@@ -351,6 +351,11 @@ footer {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.about-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 h2 {
     color: #0c1927;
